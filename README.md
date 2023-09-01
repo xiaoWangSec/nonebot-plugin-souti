@@ -13,9 +13,9 @@ _✨ 基于 Nonebot2 的一款文字搜题插件 ✨_
 <a href="./LICENSE">
     <img src="https://img.shields.io/badge/License-MPL2.0-blue" alt="license">
 </a>
-<!-- <a href="https://pypi.python.org/pypi/nonebot-plugin-example">
+ <a href="https://pypi.org/project/nonebot-plugin-souti/">
     <img src="https://img.shields.io/pypi/v/nonebot-plugin-example.svg" alt="pypi">
-</a> -->
+</a> 
 <img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="python">
 
 
