@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-souti"
-version = "1.0.0"
+version = "1.0.1"
 description = "基于 Nonebot2 的一款文字搜题插件"
 authors = ["xiaoWangSec"]
 license = "MPL2.0"
