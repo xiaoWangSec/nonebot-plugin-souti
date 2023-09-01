@@ -15,7 +15,7 @@ __plugin_meta__ = PluginMetadata(
     usage="搜题 题目内容",
     type="application",
     homepage="https://github.com/xiaoWangSec/nonebot-plugin-souti",
-    supported_adapters={"~onebot.v11"},
+    supported_adapters=None,
 )
 
 query = on_command("搜题", priority=5)
