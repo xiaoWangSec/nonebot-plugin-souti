@@ -5,8 +5,18 @@ from nonebot import on_command
 from nonebot.matcher import Matcher
 from nonebot.adapters import Message
 from nonebot.params import CommandArg
+from nonebot.plugin import PluginMetadata
 
 import httpx
+
+__plugin_meta__ = PluginMetadata(
+    name="nonebot-plugin-souti",
+    description="使用百度不挂科题库, 可以实现文字搜题功能",
+    usage="搜题 题目内容",
+    type="application",
+    homepage="https://github.com/xiaoWangSec/nonebot-plugin-souti",
+    supported_adapters={"~onebot.v11"},
+)
 
 query = on_command("搜题", priority=5)
 @query.handle()
