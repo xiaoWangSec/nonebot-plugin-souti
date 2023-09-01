@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "nonebot-plugin-souti"
+version = "1.0.0"
+description = "基于 Nonebot2 的一款文字搜题插件"
+authors = ["xiaoWangSec"]
+license = "MPL2.0"
+readme = "README.md"
+homepage = "https://github.com/xiaoWangSec/nonebot-plugin-souti"
+repository = "https://github.com/xiaoWangSec/nonebot-plugin-souti"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4"
+nonebot2 = ">=2.0.0-beta.1"
+nonebot-adapter-onebot = ">=2.0.0-beta.1"
+httpx = ">=0.19.0"
+
+
+[tool.poetry.dev-dependencies]
+nb-cli = "^0.6.0"
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
